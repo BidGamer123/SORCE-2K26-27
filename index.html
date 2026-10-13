@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14070c">
+<meta name="description" content="You are invited to SORCE 2K26-27, the CSE, DS and AIML department event at Vidarbha Institute of Technology, Nagpur. 14-15 October 2026.">
+<meta property="og:title" content="SORCE 2K26-27 Invitation">
+<meta property="og:description" content="14-15 October 2026, V.I.T. Nagpur. Department of Computer Science &amp; Engineering.">
+<meta property="og:image" content="img/rangoli-thumb.jpg">
+<style>html{color-scheme:dark;background:#14070c}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>SORCE 2K26–27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one light source drifting over a field of code. The hero is lit by the pointer; everything below is a calm, left-aligned column. Single dark look by choice. */
+:root{
+  color-scheme: dark;
+  --ink:#14070c;
+  --ink-2:#1d0a12;
+  --ink-3:#2a1019;
+  --bone:#fbeee9;
+  --dim:#c9a9ae;
+  --line:rgba(255,214,220,.16);
+  --rose:#ff5a77;
+  --ember:#ffb36b;
+  --cse:#5aa9ff;
+  --ds:#b58cff;
+  --aiml:#55d99a;
+  --f-display:"Anybody","Arial Narrow",Impact,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  --gutter:max(16px,4vw);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--bone);font:400 1rem/1.55 var(--f-body);overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ember);outline-offset:3px}
+.wrap{width:min(1120px,100%);margin-inline:auto;padding-inline:var(--gutter)}
+.label{font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--rose);margin:0 0 1rem}
+
+/* hero */
+.hero{position:relative;overflow:hidden;isolation:isolate;padding-block:clamp(24px,4vw,44px) clamp(40px,6vw,72px)}
+.hero canvas{position:absolute;inset:0;z-index:-2;display:block}
+.hero::after{content:"";position:absolute;inset:auto 0 0 0;height:30%;background:linear-gradient(to bottom,rgba(20,7,12,0),var(--ink));z-index:-1;pointer-events:none}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:6px 24px;flex-wrap:wrap;font:400 .7rem/1.5 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.top b{font-weight:500;color:var(--bone)}
+.kicker{margin:clamp(36px,7vw,84px) 0 0;font:500 .8rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--ember)}
+.mark{display:flex;margin:.12em 0 0;padding:0;font-family:var(--f-display);font-weight:800;font-size:clamp(3.4rem,19vw,11rem);line-height:.92;white-space:nowrap;color:#e9c9c8}
+.mark span{display:inline-block;font-variation-settings:"wdth" 100,"wght" 800}
+.expand{margin:.5rem 0 0;font:600 clamp(1.15rem,3.2vw,1.9rem)/1.15 var(--f-display);font-variation-settings:"wdth" 100;letter-spacing:.01em;text-wrap:balance}
+.session{margin:.4rem 0 0;font:400 .8rem/1.4 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:32px clamp(28px,6vw,80px);margin-top:clamp(28px,5vw,52px);align-items:start}
+.pitch{margin:0 0 1.4rem;max-width:34rem;color:var(--bone);font-size:1.08rem}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:.85em 1.15em;border:1px solid var(--rose);border-radius:2px;font:500 .74rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;text-decoration:none;cursor:pointer;background:transparent;color:var(--bone)}
+.btn-solid{background:var(--rose);color:var(--ink);font-weight:500}
+.btn:hover{background:var(--bone);border-color:var(--bone);color:var(--ink)}
+.facts{margin:0;display:grid;gap:0;border-top:1px solid var(--line)}
+.facts>div{display:grid;grid-template-columns:7.2rem minmax(0,1fr);gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.facts dt{font:400 .7rem/1.6 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.facts dd{margin:0;font:600 1.2rem/1.2 var(--f-display);font-variation-settings:"wdth" 100}
+.facts small{display:block;margin-top:.3rem;font:400 .86rem/1.4 var(--f-body);color:var(--dim)}
+
+/* clock */
+.clock{margin-top:clamp(28px,5vw,48px);border:1px solid var(--line);background:rgba(29,10,18,.72);padding:18px clamp(16px,3vw,28px)}
+.clock-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;margin-bottom:14px;font:500 .74rem/1.4 var(--f-mono);letter-spacing:.14em;text-transform:uppercase}
+.clock-head .what{color:var(--ember)}
+.clock-head .when{color:var(--dim)}
+.dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;background:var(--rose);margin-right:.5rem;box-shadow:0 0 0 0 rgba(255,90,119,.7);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(255,90,119,0)}100%{box-shadow:0 0 0 0 rgba(255,90,119,0)}}
+.cells{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.cell{border-left:1px solid var(--line);padding-left:12px}
+.cell b{display:block;font:700 clamp(1.8rem,6vw,3.2rem)/1 var(--f-display);font-variation-settings:"wdth" 90;font-variant-numeric:tabular-nums}
+.cell span{display:block;margin-top:.4rem;font:400 .66rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.clock.over .cells{display:none}
+
+/* sections */
+.sec{padding-block:clamp(52px,8vw,100px);border-top:1px solid var(--line)}
+.h2{margin:0 0 .5em;font:700 clamp(1.9rem,5vw,3.3rem)/1.02 var(--f-display);font-variation-settings:"wdth" 100;text-wrap:balance;max-width:20ch}
+.lede{margin:0;max-width:36rem;color:var(--dim);font-size:1.05rem}
+
+/* streams */
+.streams{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px clamp(28px,6vw,72px);align-items:center;margin-top:clamp(28px,5vw,48px)}
+.beams{width:100%;height:auto;display:block}
+.beams text{font-family:var(--f-mono);font-size:21px;font-weight:500;letter-spacing:.08em}
+.stream-list{list-style:none;margin:0;padding:0;display:grid;gap:0;border-top:1px solid var(--line)}
+.stream-list li{display:grid;grid-template-columns:4.4rem minmax(0,1fr);gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.stream-list .tag{font:500 .85rem/1.4 var(--f-mono);letter-spacing:.08em}
+.stream-list h3{margin:0 0 .2rem;font:600 1.15rem/1.2 var(--f-display);font-variation-settings:"wdth" 100}
+.stream-list p{margin:0;color:var(--dim);font-size:.95rem}
+
+/* days */
+.days{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px;margin-top:clamp(28px,5vw,48px)}
+.day{position:relative;border:1px solid var(--line);background:var(--ink-2);padding:20px 20px 18px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.day .wd{font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.day .num{font:800 clamp(3.4rem,8vw,5rem)/.95 var(--f-display);font-variation-settings:"wdth" 90;font-variant-numeric:tabular-nums}
+.day .mo{font:400 .8rem/1.2 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.day .state{margin-top:2px;align-self:flex-start;white-space:nowrap;padding:.45em .7em;border:1px solid var(--line);font:500 .66rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.day-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding-bottom:16px}
+.day-head>div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.events{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.events li{display:grid;gap:3px;padding:13px 0;border-bottom:1px solid var(--line)}
+.events li:last-child{border-bottom:0;padding-bottom:0}
+.events b{font:600 1.15rem/1.2 var(--f-display);font-variation-settings:"wdth" 100}
+.venue{font:400 .72rem/1.5 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.venue.is-tba{opacity:.7}
+.events li.is-break b{font-weight:400;color:var(--dim)}
+.poster{display:flex;flex-direction:column;gap:8px;width:min(100%,240px);justify-self:start;margin:12px 0 0;padding:0;border:0;background:none;color:inherit;text-align:left;cursor:pointer;min-width:0}
+.poster img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:contain;background:#0b0407;border:1px solid var(--line);transition:border-color .15s,transform .15s}
+.poster:hover img{border-color:var(--rose);transform:translateY(-2px)}
+.poster span{font:500 .66rem/1.35 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.lb{position:fixed;inset:0;z-index:50;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:64px 16px 24px;background:rgba(10,3,6,.94)}
+.lb img{display:block;max-width:min(100%,720px);max-height:calc(100vh - 150px);width:auto;height:auto;object-fit:contain;border:1px solid var(--line)}
+.lb p{margin:0;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--bone);text-align:center}
+.lb .btn{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:16px}
+.day.is-today{border-color:var(--rose);background:var(--ink-3)}
+.day.is-today .state{border-color:var(--rose);background:var(--rose);color:var(--ink)}
+.day.is-done{opacity:.62}
+
+/* pass */
+.pass-grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px clamp(28px,6vw,72px);align-items:center;margin-top:clamp(28px,5vw,48px)}
+.field label{display:block;margin-bottom:.5rem;font:500 .72rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.field input{width:100%;padding:.9em 1em;background:var(--ink-2);border:1px solid var(--line);border-radius:2px;color:var(--bone);font:500 1.1rem/1.2 var(--f-body)}
+.field input::placeholder{color:#8d6f75}
+.field p{margin:.7rem 0 0;color:var(--dim);font-size:.9rem}
+.ticket-wrap{perspective:900px;min-width:0}
+.ticket{position:relative;border:1px solid var(--rose);background:linear-gradient(135deg,var(--ink-3),var(--ink-2));padding:22px clamp(18px,4vw,30px) 0;transition:transform .15s ease-out;will-change:transform;overflow:hidden}
+.ticket::before,.ticket::after{content:"";position:absolute;bottom:92px;width:22px;height:22px;border-radius:50%;background:var(--ink);border:1px solid var(--rose)}
+.ticket::before{left:-12px}
+.ticket::after{right:-12px}
+.t-top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:500 .68rem/1.4 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--ember)}
+.t-name{margin:18px 0 6px;font:800 clamp(1.6rem,5vw,2.6rem)/1.05 var(--f-display);font-variation-settings:"wdth" 100;text-transform:uppercase;overflow-wrap:anywhere}
+.t-name.is-empty{color:#8d6f75}
+.t-meta{display:flex;flex-wrap:wrap;gap:4px 22px;padding-bottom:22px;font:400 .72rem/1.5 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.t-stub{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 calc(-1 * clamp(18px,4vw,30px));padding:0 clamp(18px,4vw,30px);height:92px;border-top:1px dashed var(--rose)}
+.t-bars{height:44px;width:min(190px,55%);color:var(--bone)}
+.t-id{font:500 .78rem/1.3 var(--f-mono);letter-spacing:.14em;text-align:right}
+.t-id small{display:block;font-size:.62rem;color:var(--dim)}
+
+
+/* footer */
+.foot{padding-block:clamp(36px,6vw,64px);border-top:1px solid var(--line);color:var(--dim);font-size:.9rem}
+.foot-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px clamp(24px,6vw,72px)}
+.foot b{display:block;margin-bottom:.35rem;color:var(--bone);font:600 1.05rem/1.25 var(--f-display);font-variation-settings:"wdth" 100}
+.foot p{margin:0 0 .4rem}
+.foot .fine{font:400 .68rem/1.6 var(--f-mono);letter-spacing:.1em;text-transform:uppercase}
+
+@media (max-width:760px){
+  .hero-grid,.streams,.pass-grid,.foot-grid{grid-template-columns:minmax(0,1fr)}
+  .facts>div{grid-template-columns:6rem minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){
+  .dot{animation:none}
+  .ticket,.poster img{transition:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero" id="hero">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="top">
+      <span><b>K.D.M. Education Society's</b> Vidarbha Institute of Technology, Nagpur</span>
+      <span>CSE &middot; DS &middot; AIML</span>
+    </div>
+
+    <p class="kicker">You are invited to</p>
+    <h1 class="mark" id="mark" aria-label="SORCE"><span aria-hidden="true">S</span><span aria-hidden="true">O</span><span aria-hidden="true">R</span><span aria-hidden="true">C</span><span aria-hidden="true">E</span></h1>
+    <p class="expand">Society of Radiant Computer Engineers</p>
+    <p class="session">Edition 2K26 &ndash; 2K27</p>
+
+    <div class="hero-grid">
+      <div>
+        <p class="pitch">SORCE 2K26&ndash;2K27 runs for two days at V.I.T. Nagpur, hosted by the Department of Computer Science &amp; Engineering. Technical contests on Wednesday, a treasure hunt and a quiz on Thursday.</p>
+        <div class="cta">
+          <a class="btn btn-solid" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=SORCE%202K26%E2%80%932K27&amp;dates=20261014/20261016&amp;details=Society%20of%20Radiant%20Computer%20Engineers%2C%20hosted%20by%20the%20Department%20of%20Computer%20Science%20%26%20Engineering%20(CSE%2C%20DS%2C%20AIML)%2C%20Vidarbha%20Institute%20of%20Technology%2C%20Nagpur.&amp;location=Vidarbha%20Institute%20of%20Technology%2C%20Nagpur">Add to calendar &#8599;</a>
+          <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Vidarbha%20Institute%20of%20Technology%20Nagpur">Find the venue &#8599;</a>
+        </div>
+      </div>
+      <dl class="facts">
+        <div><dt>Dates</dt><dd>14 &ndash; 15 October 2026<small>Wednesday and Thursday</small></dd></div>
+        <div><dt>Venue</dt><dd>V.I.T. Nagpur<small>Vidarbha Institute of Technology. Rooms are listed per event.</small></dd></div>
+        <div><dt>Hosted by</dt><dd>Computer Science &amp; Engineering<small>CSE &middot; Data Science &middot; AI &amp; ML</small></dd></div>
+      </dl>
+    </div>
+
+    <div class="clock" id="clock">
+      <div class="clock-head"><span class="what" id="clockWhat">Starts in</span><span class="when" id="clockWhen">Begins Wednesday, 14 October 2026</span></div>
+      <div class="cells" role="timer" aria-live="off">
+        <div class="cell"><b id="cdD">00</b><span>Days</span></div>
+        <div class="cell"><b id="cdH">00</b><span>Hours</span></div>
+        <div class="cell"><b id="cdM">00</b><span>Minutes</span></div>
+        <div class="cell"><b id="cdS">00</b><span>Seconds</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="sec" aria-labelledby="streamsH">
+    <div class="wrap">
+      <p class="label">The streams</p>
+      <h2 class="h2" id="streamsH">Three streams, one source</h2>
+      <p class="lede">The department's three branches meet under SORCE. Whichever one is yours, there is a place for you in the hall.</p>
+      <div class="streams">
+        <svg class="beams" viewBox="0 0 640 240" role="img" aria-label="Three lines labelled CSE, DS and AIML run from the left and converge on one glowing point">
+          <defs>
+            <linearGradient id="gC" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--cse)"/><stop offset="1" style="stop-color:var(--rose)"/></linearGradient>
+            <linearGradient id="gD" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--ds)"/><stop offset="1" style="stop-color:var(--rose)"/></linearGradient>
+            <linearGradient id="gA" x1="0" x2="1" y1="0" y2="0"><stop offset="0" style="stop-color:var(--aiml)"/><stop offset="1" style="stop-color:var(--rose)"/></linearGradient>
+            <radialGradient id="core"><stop offset="0" stop-color="#fff4e0"/><stop offset=".3" style="stop-color:var(--ember)"/><stop offset="1" style="stop-color:var(--rose);stop-opacity:0"/></radialGradient>
+          </defs>
+          <circle cx="520" cy="120" r="100" fill="url(#core)" opacity=".85"/>
+          <path d="M112 44 C 300 44, 380 120, 520 120" fill="none" stroke="url(#gC)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M112 120 L 520 120" fill="none" stroke="url(#gD)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M112 196 C 300 196, 380 120, 520 120" fill="none" stroke="url(#gA)" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="520" cy="120" r="7" fill="#fff4e0"/>
+          <text x="0" y="51" style="fill:var(--cse)">CSE</text>
+          <text x="0" y="127" style="fill:var(--ds)">DS</text>
+          <text x="0" y="203" style="fill:var(--aiml)">AIML</text>
+        </svg>
+        <ul class="stream-list">
+          <li><span class="tag" style="color:var(--cse)">CSE</span><div><h3>Computer Science &amp; Engineering</h3><p>Software, systems and the theory beneath them.</p></div></li>
+          <li><span class="tag" style="color:var(--ds)">DS</span><div><h3>Data Science</h3><p>Turning raw data into decisions you can defend.</p></div></li>
+          <li><span class="tag" style="color:var(--aiml)">AIML</span><div><h3>Artificial Intelligence &amp; Machine Learning</h3><p>Models that learn, and the people who build them.</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="daysH">
+    <div class="wrap">
+      <p class="label">The programme</p>
+      <h2 class="h2" id="daysH">Two days of contests and prizes</h2>
+      <p class="lede">Wednesday 14 and Thursday 15 October 2026, at V.I.T. Nagpur. Each event lists its own venue.</p>
+      <div class="days" id="days">
+        <article class="day" data-i="0"><header class="day-head"><div><span class="wd">Wednesday</span><span class="num">14</span><span class="mo">October 2026</span></div><span class="state">Coming up</span></header><ul class="events"><li><b>Technical Rangoli Competition</b><span class="venue">V.I.T. Nagpur</span><button class="poster" type="button" data-full="img/rangoli.jpg" data-title="Technical Rangoli Competition"><img src="img/rangoli-thumb.jpg" alt="Technical Rangoli Competition poster"><span>Tap to enlarge</span></button></li><li><b>IoT Mini Project</b><span class="venue">CSE Department Lab</span><button class="poster" type="button" data-full="img/iot.jpg" data-title="IoT Mini Project Competition"><img src="img/iot-thumb.jpg" alt="IoT Mini Project Competition poster"><span>Tap to enlarge</span></button></li><li><b>Technical Reels Competition</b><span class="venue">CSE Department</span><button class="poster" type="button" data-full="img/reels.jpg" data-title="Technical Reels Competition"><img src="img/reels-thumb.jpg" alt="Technical Reels Competition poster"><span>Tap to enlarge</span></button></li><li><b>Quiz Competition</b><span class="venue">V.I.T. Nagpur</span><button class="poster" type="button" data-full="img/quiz.jpg" data-title="Quiz Competition"><img src="img/quiz-thumb.jpg" alt="Quiz Competition poster"><span>Tap to enlarge</span></button></li></ul></article>
+        <article class="day" data-i="1"><header class="day-head"><div><span class="wd">Thursday</span><span class="num">15</span><span class="mo">October 2026</span></div><span class="state">Coming up</span></header><ul class="events"><li><b>Treasure Hunt</b><span class="venue">V.I.T. Nagpur</span><button class="poster" type="button" data-full="img/treasure.jpg" data-title="Treasure Hunt"><img src="img/treasure-thumb.jpg" alt="Treasure Hunt poster"><span>Tap to enlarge</span></button></li><li><b>Web Development</b><span class="venue">CSE Department Lab</span><button class="poster" type="button" data-full="img/webdev.jpg" data-title="Web Development Project Competition"><img src="img/webdev-thumb.jpg" alt="Web Development Project Competition poster"><span>Tap to enlarge</span></button></li><li class="is-break"><b>Lunch Break</b></li><li><b>Prize Distribution</b></li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="passH">
+    <div class="wrap">
+      <p class="label">Your pass</p>
+      <h2 class="h2" id="passH">Put your name on it</h2>
+      <div class="pass-grid">
+        <div class="field">
+          <label for="guest">Your name</label>
+          <input id="guest" type="text" maxlength="28" autocomplete="off" placeholder="Type your name" spellcheck="false">
+          <p>The pass fills in as you type. Take a screenshot to keep it.</p>
+        </div>
+        <div class="ticket-wrap">
+          <div class="ticket" id="ticket">
+            <div class="t-top"><span>SORCE 2K26&ndash;2K27</span><span>Admit one</span></div>
+            <p class="t-name is-empty" id="tName">Your name here</p>
+            <div class="t-meta"><span>14&ndash;15 Oct 2026</span><span>V.I.T. Nagpur</span></div>
+            <div class="t-stub">
+              <svg class="t-bars" id="tBars" viewBox="0 0 190 44" preserveAspectRatio="none" aria-hidden="true"></svg>
+              <div class="t-id"><small>Pass no.</small><span id="tId">SRC26-0000</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <b>Vidarbha Institute of Technology, Nagpur</b>
+      <p>K.D.M. Education Society's &middot; An Autonomous Institution</p>
+      <p class="fine">Approved by AICTE, New Delhi &middot; Govt. of Maharashtra &middot; Affiliated to DBATU, Lonere (Raigad) &middot; NAAC accredited</p>
+    </div>
+    <div>
+      <b>Department of Computer Science &amp; Engineering</b>
+      <p>CSE &middot; Data Science &middot; Artificial Intelligence &amp; Machine Learning</p>
+      <p class="fine">SORCE &mdash; Society of Radiant Computer Engineers</p>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Event poster"><button class="btn" id="lbClose" type="button">Close &#10005;</button><img id="lbImg" alt=""><p id="lbCap"></p></div>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hero = document.getElementById('hero');
+  var cv = document.getElementById('field');
+  var ctx = cv.getContext('2d');
+  var letters = Array.prototype.slice.call(document.querySelectorAll('#mark span'));
+  var W = 0, H = 0, dpr = 1, cell = 22, cols = 0, rows = 0, glyphs = [], base = null;
+  var lx = 0, ly = 0, tx = 0, ty = 0, lastPtr = -1e9, running = false, visible = true;
+  var CH = '01{}<>/;=+*#$&%sorce'.split('');
+  var MONO = '"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace';
+
+  function rnd(i){ var x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
+
+  function resize(){
+    var r = hero.getBoundingClientRect();
+    W = Math.max(1, r.width); H = Math.max(1, r.height);
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    cell = W < 600 ? 18 : 22;
+    cols = Math.ceil(W / cell); rows = Math.ceil(H / cell);
+    glyphs = [];
+    for (var i = 0; i < cols * rows; i++) glyphs.push({c: CH[Math.floor(rnd(i) * CH.length)], p: rnd(i + 999) * 6.28});
+    base = document.createElement('canvas');
+    base.width = cv.width; base.height = cv.height;
+    var b = base.getContext('2d');
+    b.setTransform(dpr, 0, 0, dpr, 0, 0);
+    b.font = '500 ' + (cell * 0.62) + 'px ' + MONO;
+    b.textAlign = 'center'; b.textBaseline = 'middle';
+    b.fillStyle = 'rgba(255,214,220,0.07)';
+    for (var y = 0; y < rows; y++) for (var x = 0; x < cols; x++) b.fillText(glyphs[y * cols + x].c, x * cell + cell / 2, y * cell + cell / 2);
+    if (!lx && !ly) { lx = tx = W * 0.42; ly = ty = H * 0.38; }
+    if (reduce || !running) { draw(0); lightLetters(); }
+  }
+
+  function draw(t){
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    if (base) ctx.drawImage(base, 0, 0, W, H);
+    var gr = Math.min(Math.max(W * 0.45, 260), 640);
+    var g = ctx.createRadialGradient(lx, ly, 0, lx, ly, gr);
+    g.addColorStop(0, 'rgba(255,140,110,0.20)');
+    g.addColorStop(0.35, 'rgba(255,90,119,0.12)');
+    g.addColorStop(1, 'rgba(255,90,119,0)');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    var sig = gr * 0.42, reach = sig * 2.4;
+    var x0 = Math.max(0, Math.floor((lx - reach) / cell)), x1 = Math.min(cols - 1, Math.ceil((lx + reach) / cell));
+    var y0 = Math.max(0, Math.floor((ly - reach) / cell)), y1 = Math.min(rows - 1, Math.ceil((ly + reach) / cell));
+    ctx.font = '500 ' + (cell * 0.62) + 'px ' + MONO;
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    for (var y = y0; y <= y1; y++) {
+      for (var x = x0; x <= x1; x++) {
+        var cx = x * cell + cell / 2, cy = y * cell + cell / 2;
+        var dx = cx - lx, dy = cy - ly;
+        var k = Math.exp(-(dx * dx + dy * dy) / (2 * sig * sig));
+        if (k < 0.04) continue;
+        var gl = glyphs[y * cols + x];
+        var fl = 0.82 + 0.18 * Math.sin(t * 0.002 + gl.p);
+        var a = Math.min(0.5, k * fl * 0.62);
+        var kk = k * k;
+        ctx.fillStyle = 'rgba(255,' + Math.round(90 + 154 * kk) + ',' + Math.round(119 + 81 * kk) + ',' + a.toFixed(3) + ')';
+        ctx.fillText(gl.c, cx, cy);
+      }
+    }
+  }
+
+  function lightLetters(){
+    var hr = hero.getBoundingClientRect();
+    var rects = letters.map(function(s){ return s.getBoundingClientRect(); });
+    var R = Math.max(180, Math.min(W, 900) * 0.28);
+    for (var i = 0; i < letters.length; i++) {
+      var r = rects[i];
+      var cx = r.left - hr.left + r.width / 2, cy = r.top - hr.top + r.height / 2;
+      var d = Math.hypot(cx - lx, cy - ly);
+      var k = Math.exp(-(d * d) / (R * R));
+      var s = letters[i].style;
+      s.fontVariationSettings = '"wdth" ' + (80 + 42 * k).toFixed(1) + ', "wght" ' + Math.round(640 + 260 * k);
+      s.color = 'rgb(' + Math.round(233 + 22 * k) + ',' + Math.round(201 + 43 * k) + ',' + Math.round(200 + 24 * k) + ')';
+      s.textShadow = '0 0 ' + Math.round(10 + 40 * k) + 'px rgba(255,90,119,' + (0.12 + 0.6 * k).toFixed(2) + ')';
+    }
+  }
+
+  function frame(t){
+    if (!running) return;
+    if (t - lastPtr > 2500) {
+      tx = W * (0.5 + 0.30 * Math.sin(t * 0.00031));
+      ty = H * (0.40 + 0.22 * Math.sin(t * 0.00047 + 1.3));
+    }
+    lx += (tx - lx) * 0.08; ly += (ty - ly) * 0.08;
+    draw(t); lightLetters();
+    requestAnimationFrame(frame);
+  }
+  function start(){ if (reduce || running || !visible) return; running = true; requestAnimationFrame(frame); }
+  function stop(){ running = false; }
+
+  hero.addEventListener('pointermove', function(e){
+    var r = hero.getBoundingClientRect();
+    tx = e.clientX - r.left; ty = e.clientY - r.top; lastPtr = performance.now();
+  });
+  hero.addEventListener('pointerleave', function(){ lastPtr = -1e9; });
+
+  resize();
+  if (window.ResizeObserver) new ResizeObserver(function(){ resize(); }).observe(hero);
+  else window.addEventListener('resize', resize);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ resize(); });
+  if (window.IntersectionObserver) new IntersectionObserver(function(es){
+    visible = es[0].isIntersecting; if (visible) start(); else stop();
+  }).observe(hero);
+  start();
+
+  /* ---- Countdown and day states ---------------------------------------- */
+  var START = Date.parse('2026-10-14T00:00:00+05:30');
+  var END = Date.parse('2026-10-16T00:00:00+05:30');
+  var DAY = 864e5;
+  var clock = document.getElementById('clock');
+  var what = document.getElementById('clockWhat');
+  var when = document.getElementById('clockWhen');
+  var el = {d: document.getElementById('cdD'), h: document.getElementById('cdH'), m: document.getElementById('cdM'), s: document.getElementById('cdS')};
+  var dayEls = Array.prototype.slice.call(document.querySelectorAll('#days .day'));
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+
+  function tick(){
+    var now = Date.now(), diff, i;
+    if (now < START) {
+      diff = START - now; what.textContent = 'Starts in'; when.textContent = 'Begins Wednesday, 14 October 2026';
+      clock.classList.remove('over');
+    } else if (now < END) {
+      diff = END - now; var n = Math.floor((now - START) / DAY) + 1;
+      what.innerHTML = '<span class="dot"></span>Live now &middot; Day ' + n + ' of 2';
+      when.textContent = 'Time left in SORCE 2K26–2K27';
+      clock.classList.remove('over');
+    } else {
+      diff = 0; what.textContent = 'SORCE 2K26–2K27 has ended'; when.textContent = 'Thank you for being there.';
+      clock.classList.add('over');
+    }
+    var s = Math.floor(diff / 1000);
+    el.d.textContent = pad(Math.floor(s / 86400));
+    el.h.textContent = pad(Math.floor(s % 86400 / 3600));
+    el.m.textContent = pad(Math.floor(s % 3600 / 60));
+    el.s.textContent = pad(s % 60);
+    dayEls.forEach(function(d, j){
+      var ds = START + j * DAY, st = d.querySelector('.state');
+      d.classList.remove('is-today', 'is-done');
+      if (now >= ds + DAY) { d.classList.add('is-done'); st.textContent = 'Done'; }
+      else if (now >= ds) { d.classList.add('is-today'); st.textContent = 'Today'; }
+      else st.textContent = 'Coming up';
+    });
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---- Pass -------------------------------------------------------------- */
+  var guest = document.getElementById('guest');
+  var tName = document.getElementById('tName');
+  var tId = document.getElementById('tId');
+  var tBars = document.getElementById('tBars');
+  function hash(str){ var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+  function bars(h){
+    var s = h || 12345, x = 0, out = '';
+    while (x < 186) {
+      s = (Math.imul(s, 1664525) + 1013904223) >>> 0;
+      var w = 1 + ((s >>> 28) % 4), gap = 2 + ((s >>> 24) % 3);
+      if (x + w > 190) break;
+      out += '<rect x="' + x + '" y="0" width="' + w + '" height="44" fill="currentColor"/>';
+      x += w + gap;
+    }
+    return out;
+  }
+  function updatePass(){
+    var n = guest.value.trim();
+    tName.textContent = n || 'Your name here';
+    tName.classList.toggle('is-empty', !n);
+    var h = hash(n.toLowerCase() || 'sorce');
+    tId.textContent = n ? 'SRC26-' + h.toString(36).toUpperCase().slice(0, 4).padStart(4, '0') : 'SRC26-0000';
+    tBars.innerHTML = bars(h);
+  }
+  guest.addEventListener('input', updatePass);
+  updatePass();
+
+  /* ---- Poster viewer ------------------------------------------------------ */
+  var lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'), lbCap = document.getElementById('lbCap'), lbClose = document.getElementById('lbClose'), lastBtn = null;
+  function openLb(b){ lastBtn = b; lbImg.src = b.getAttribute('data-full'); lbImg.alt = b.getAttribute('data-title') + ' poster'; lbCap.textContent = b.getAttribute('data-title'); lb.hidden = false; lbClose.focus(); }
+  function closeLb(){ lb.hidden = true; lbImg.removeAttribute('src'); if (lastBtn) lastBtn.focus(); }
+  Array.prototype.forEach.call(document.querySelectorAll('.poster'), function(b){ b.addEventListener('click', function(){ openLb(b); }); });
+  lbClose.addEventListener('click', closeLb);
+  lb.addEventListener('click', function(e){ if (e.target === lb) closeLb(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !lb.hidden) closeLb(); });
+
+  var ticket = document.getElementById('ticket');
+  if (!reduce) {
+    ticket.addEventListener('pointermove', function(e){
+      var r = ticket.getBoundingClientRect();
+      var px = (e.clientX - r.left) / r.width - 0.5, py = (e.clientY - r.top) / r.height - 0.5;
+      ticket.style.transform = 'rotateX(' + (-py * 8).toFixed(2) + 'deg) rotateY(' + (px * 10).toFixed(2) + 'deg)';
+    });
+    ticket.addEventListener('pointerleave', function(){ ticket.style.transform = ''; });
+  }
+})();
+</script>
+
+</body>
+</html>
